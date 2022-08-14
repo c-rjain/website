@@ -1,0 +1,255 @@
+.body-display{
+    position:relative;
+    top:10vh;
+    display:flex;
+    height:90vh;;
+    flex-direction: column-reverse;
+}
+.body-service{
+    position: relative;
+    height:auto;
+    padding-top: 180px;
+    background: linear-gradient(180deg, rgba(66, 146, 181, 0) 0%, #001B26 49.27%);
+    padding-bottom: 50px;
+}
+.body-service-stack{
+    position: relative;
+    height:auto;
+    background: #001B26;
+    box-shadow: -10px 0px 250px 3px rgba(64, 96, 108, 0.25);
+    
+    border-radius: 0px;
+    display:flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+    border-radius: 0px;
+    padding-bottom: 50px;
+    }
+.logo-heading{
+    width:100%;
+    align-content: center;
+    order: 2;  
+}
+.source-button{
+    width: 270px;
+    height: 30px;
+    background: #20303D;
+    backdrop-filter: blur(30px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 20px;
+    text-align: center;
+    float: center;
+    color:#FFFFFF  ;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    padding:16px 14px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+.div-pane{
+    width:100%;
+    padding-top: 50px;
+    align-items: center;
+    }
+        
+
+.our-service-text{
+    /* Our Service */
+position: relative;
+
+font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 125%;
+padding-top: 50px;
+margin-top: 50px;;
+/* or 80px */
+text-align: center;
+color: #FFFFFF;
+text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.service-specific-text{
+
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 125%;
+    /* identical to box height, or 35px */
+    text-align: center;
+    
+    color: #004C67;
+    }
+
+.question-slides {
+        display:none;
+        width:100%;
+        height:inherit;
+        /* Our Service Stack */
+    
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 700;
+    /* identical to box height, or 60px */
+    
+        color: #FFFFFF;
+    
+        text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    
+    }
+    .question-button{
+        /* Rectangle 402 */
+    
+    width: 100px;
+    height: 50px;
+    background: #243D4D;
+    border-radius: 10px;
+    border: none;
+    color:#fff;
+    }
+.question-button:hover{
+
+    /* Rectangle 401 */
+    background: #35BBEA;
+    color:#000;
+}
+.question-slide-pane{
+    width: auto;
+    height: auto;
+    display: inline-flex;
+    flex-direction: row;
+    background: #00121D;
+    border-radius: 10px;
+    align-items: center;
+
+    }
+    .question-slide-pane p{
+        padding-left: 20px;
+        padding-right: 20px;
+        color: #fff;
+    }
+.service-stack-row{
+    width: 100%;
+    height:auto;
+    display:flex;
+    flex-direction: row;
+    
+}
+.service-stack{
+    background: #003344;
+    color: #fff;
+    width: 50%;
+    padding: 25px;
+
+} 
+
+
+
+.service-stack:hover{
+    background: #35BBEA;
+    color: #000;
+    
+
+    }
+.service-stack:hover svg path{
+    stroke:#000;
+}
+.service-stack svg path{
+    stroke:#fff;
+}
+.service-stack .circle{
+    fill:#fff;
+}
+.service-stack:hover .circle{
+    fill:#000;
+}
+.service-stack-first-row-first-col{
+border-radius: 30px 0px 0px 0px;
+}
+/* Rectangle 12 */
+.service-stack-first-row-second-col{
+    border-radius: 0px 30px 0px 0px;
+
+}
+.service-stack-third-row-first-col{
+    border-radius: 0px 0px 0px 30px;
+    }
+
+.service-stack-third-row-second-col{
+    border-radius: 0px 00px 30px 0px;
+
+}
+@media only screen and (min-width:700px) {
+    .body-display{
+        position:relative;
+        top:30vh;
+        width:80%;
+        height:90vh;;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin:0 auto;
+    }
+    .body-service{
+        position: relative;
+        height:auto;
+        padding-top: 180px;
+        background: linear-gradient(180deg, rgba(66, 146, 181, 0) 0%, #001B26 49.27%);
+        padding-bottom: 50px;
+    }
+    .body-service-stack{
+        position: relative;
+        height:auto;
+        padding-left: 0%;
+        padding-right: 0%;
+        background: #001B26;
+        box-shadow: -10px 0px 250px 3px rgba(64, 96, 108, 0.25);
+        border-radius: 0px;
+        display: flex;
+        padding-left: 10%;
+        padding-right: 10%;
+        flex-direction: row;
+        width: 80%;
+    }
+    .source-button{
+        float:left;
+    }
+    .logo-heading{
+        
+        order: 2;
+        width:50%;
+        align-content: center;
+
+    }
+
+    .our-service-text{
+        text-align: left;  
+        left:10%;
+        width:80%;
+    }
+    .div-pane{
+
+        width:50%;
+        
+        }
+
+        #slides{
+            height:550px;
+        }
+        .question-button{
+            /* Rectangle 402 */
+        
+        width: 134px;
+
+        }
+}

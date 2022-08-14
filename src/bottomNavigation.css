@@ -1,0 +1,25 @@
+.bottomNav{
+    /* Rectangle 44 */
+background: rgba(166, 196, 207, 0.25);
+border-radius: 0px;
+width: 80%;
+min-height: 300px;
+height:auto;
+position: absolute;
+padding: 10%;
+
+}
+.confederacie-bottom-text{
+    font-size: 48px;
+}
+.box-nav{
+    margin:20px;    
+    background-color:none;
+    box-shadow:none;
+}
+.box-nav-link{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color:#5C86A7;
+}

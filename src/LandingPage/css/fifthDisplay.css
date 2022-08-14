@@ -1,0 +1,217 @@
+.fifthDisplay{
+  
+        position: relative;
+        height:auto;
+        
+        border-radius: 0px;
+
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 50px;
+        padding-bottom: 100px;
+        margin-bottom: 100px;
+        border-radius: 0px;
+        padding-bottom: 50px;
+        align-items: left;
+        text-align: left;
+}
+.fifthDisplaySub{
+position: relative;
+height:400px;
+
+}
+.bgContentWriting{
+    width: 50%;
+    height:100%;
+    position: absolute;
+    left:0%;
+    top:0%;
+}
+.bgContentWritingData{
+    /* Rectangle 393 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 100%;
+height:50%;
+top:50%;
+border: 1px solid #5C86A7;
+box-shadow: 2px 10px 30px 10px rgba(92, 134, 167, 0.25);
+border-radius: 40px;
+
+}
+.bgContentWritingDataText{
+    position:inherit;
+    width: 50%;
+    height:100%;
+    right:50px;
+    top:0px;
+    text-align: left;
+}
+.bgContentWritingDataText h2{
+    /* Content Writing */
+
+
+
+font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 700;
+font-size: 150%;
+/* identical to box height, or 60px */
+
+color: #5C86A7;
+
+
+}
+.bgContentWritingDataText p{
+    /* Confederacie will provide content writing service. If possible please use a good Ilustration in this section. */
+
+width:50%;
+
+font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 500;
+font-size: 100%;
+/* or 28px */
+
+color: #000000;
+
+
+}
+
+.opacityBox{
+    /* Rectangle 395 */
+
+position: absolute;
+top:350px;
+left:0%;
+width:100%;
+height:60%;
+opacity: 0.3;
+background: conic-gradient(from 180deg at 50% 50%, #A6C4CF 0deg, #6A99AB 150deg, #A6C4CF 360deg);
+
+}
+
+.contentWritingHeading{
+
+    /* Content Writing */
+
+
+font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 125%;
+margin: 40px;
+/* identical to box height, or 70px */
+color: #5C86A7;
+
+
+}
+.leftRightCircle{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: right;
+
+  flex-direction: row;
+}
+.leftRightCircle div{
+    /* Ellipse 16 */
+
+    border-radius: 50%; 
+    margin: 5px;
+    width:50px;
+    height:50px;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(0deg, #5C86A7, #5C86A7), linear-gradient(0deg, #5C86A7, #5C86A7), linear-gradient(0deg, #5C86A7, #5C86A7), #5C86A7;
+
+}
+
+
+.content-writing-stack{
+    position: relative;
+    text-align: left;  
+    display: inline;
+    align-items: left;
+    justify-content: left;
+   }
+
+   .content-writing-box{
+    width: 220px;
+    height: 320px;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center; 
+    opacity: 1.0; 
+
+    /* Rectangle 396 */
+
+box-sizing: border-box;
+
+background: #f9f6f6;
+border: 1px solid #5C86A7;
+border-radius: 30px;
+/* Software Architecture and Development */
+font-family: 'Red Hat Display';
+font-style: normal;
+color: #5C86A7;
+
+    }
+    .content-writing-box:hover{
+        /* Rectangle 397 */
+
+background: #6A99AB;
+border: 1px solid #5C86A7;
+box-shadow: 2px 8px 30px 10px rgba(92, 134, 167, 0.25);
+border-radius: 30px;
+color: #fff;
+
+    }
+    .content-writing-box h1{
+font-weight: 700;
+font-size: 18px;
+
+    }
+    .content-writing-box svg{
+        padding: 30px;
+        fill:#6A99AB;
+    }
+    .content-writing-box:hover{
+        width: 260px;
+        height: 360px;
+    }
+    .content-writing-box:hover svg{
+        width:72px;
+        height:40px;
+        fill:#fff;
+    }
+    .content-writing-box p{
+
+    /* Our vision is to help every digital dream come alive snv dsljf nv mdsfinI, sdnf II fkdsjfl */
+
+font-weight: 500;
+font-size: 14px;
+}
+.contentWritingBottomImg{
+    width:100%;
+    justify-content: right;
+    text-align: right;
+}
+@media only screen and (max-width:700px) {
+    .contentWritingBottomImg{
+        width:100%;
+        justify-content: center;
+        text-align: center;
+    }
+    .contentWritingBottomImg img{
+        width:100%;
+    }
+}

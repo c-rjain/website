@@ -1,0 +1,162 @@
+.fourthDisplay{
+    position: relative;
+    height:auto;
+
+    padding-top: 70px;
+    border-radius: 0px;
+    padding-bottom: 50px;
+    }
+    .backgroundImage-prototype{
+        position: absolute;
+        right:0px;
+        top:250px;
+        height:600px;
+        width:50%;
+        min-width:400px;
+        z-index: .20;
+    }
+    .prototype{
+        z-index: .80;
+        width:80%;
+        height:1200px;
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: left;
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 900;
+        line-height: 100%;
+        font-size: 48px;
+        line-height: 90%;
+    }
+    .prototype prototype{
+        text-decoration: underline;
+    }
+
+    .prototype-stack{
+        /* Rectangle 32 */
+
+        box-sizing: border-box;
+
+        width: 200px;
+        height: 250px;
+        position:relative;
+        background: #FFFFFF;
+        border: 3px solid #D3D3D3;
+        box-shadow: 3px 7px 30px 5px rgba(151, 160, 178, 0.25);
+        border-radius: 20px;
+        font-weight: 700;
+        padding: 10px;
+        text-align: left;
+        font-size: 20px;
+    }
+.prototype-stack h3{
+        position: relative;
+        top:30px;
+        line-height: 110%;
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 100%;
+        color: #000000;
+    }
+    arrow{
+            /* Explore */
+
+font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 100%;
+/* identical to box height, or 20px */
+
+color: #3A66FF;
+
+
+    }
+    .prototype-stack p{
+        position: relative;
+        top:40px;
+        font-size: 14px;
+        line-height: 100%;
+        /* Our vision is to help every digital dream come alive through a better and sustain security */
+
+
+font-weight: 500;
+font-size: 18px;
+line-height: 100%;
+/* or 28px */
+
+color: #000000;
+
+
+    }
+    .prototype-flex{
+        height:100%;
+        margin-left: 0%;
+        
+    }
+    .prototype-col{
+        width:15%;
+        min-width:200px;
+        display:flex;
+        flex-direction: row;
+    }
+    .color-tag{
+        /* Rectangle 35 */
+
+        position:absolute;
+        top:20px;
+        right:0px;
+        /* Rectangle 33 */
+
+width: 52px;
+height: 38px;
+
+
+
+border-radius: 5px 0px 0px 10px;
+
+    }
+    /* Build Your ‘Prototype‘ */
+
+    @media only screen and (max-width:700px) {
+        .prototype{
+            z-index: .80;
+            height:auto;
+            padding-left: 0%;
+            padding-right: 0%;
+            text-align: center;
+        }
+        .prototype-col{
+            width:100%;
+           padding: 0%!important;           
+           min-width: 100%;
+        }
+        .prototype-stack{
+
+            height:260px;
+            width:100%;
+            opacity: 0.99;
+            background: #FFFFFF;
+
+            position:relative!important;
+            left:unset!important;
+            right:unset!important;
+            top:unset!important;
+            margin-left: 10%;
+            margin-left: 10%;
+            margin-top: 40px!important;
+
+        }
+        .prototype-flex{
+        width:100%;
+        height:auto;
+        display:flex;
+        flex-direction: column;
+        }
+        .prototype-flex img{
+            display:none;
+        }
+    }
