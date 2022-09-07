@@ -34,10 +34,10 @@ function Navigation(){
             <Link to="/visualization">Visualization</Link>
             </li>
             <li>
-              <a href="/contact">Option</a>
+              <a href="/virtualization">Virtualization</a>
             </li>
             <li>
-              <a href="/contact">Option</a>
+              <a href="/governance">Governance</a>
             </li>
             <li>
               <a href="/contact">Option</a>

@@ -14,6 +14,8 @@ import Governance from './Governance/Governance';
 import Virtualization from './Virtualization/Virtualization';
 import LandingPage from "./LandingPage/LandingPage";
 import Visualization from './Visualization/Visualization'
+import Prototyping from './Prototyping/Prototyping'
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
@@ -24,6 +26,8 @@ root.render(
           <Route exact path ="/visualization" element={<Visualization/>} />
           <Route exact path ="/governance" element={<Governance/>} />
           <Route exact path ="/virtualization" element={<Virtualization/>} />
+          <Route exact path ="/prototyping" element={<Prototyping/>} />
+
         </Routes>
         <BottomNavigation/>
     </BrowserRouter>
