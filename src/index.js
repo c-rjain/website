@@ -10,7 +10,8 @@ import {
 } from "react-router-dom";
 import Navigation from './Navigation';
 import BottomNavigation from './bottomNavigation';
-
+import Governance from './Governance/Governance';
+import Virtualization from './Virtualization/Virtualization';
 import LandingPage from "./LandingPage/LandingPage";
 import Visualization from './Visualization/Visualization'
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -21,6 +22,8 @@ root.render(
       <Routes>
           <Route exact path ="/" element={<LandingPage/>} />
           <Route exact path ="/visualization" element={<Visualization/>} />
+          <Route exact path ="/governance" element={<Governance/>} />
+          <Route exact path ="/virtualization" element={<Virtualization/>} />
         </Routes>
         <BottomNavigation/>
     </BrowserRouter>

@@ -1,0 +1,135 @@
+.body-governance{
+
+    height:80vh;
+    justify-content: left;
+    align-items: center;
+
+    vertical-align: middle;  
+    text-align: center;
+}
+.works-governance{
+    position: relative;
+    justify-content: left;
+    align-items: center;
+    vertical-align: middle;  
+    text-align: center;
+}
+.tilt-90-button{
+
+width: 100%;
+height: 20%;
+
+}
+.color-box-shade{
+    /* Vector */
+    width: 100%;
+    height: 100%;
+/* Vector */
+
+}
+
+.color-box-shade div{
+    /* Vector */
+    
+position: relative;
+}
+.color-box-shade div img{
+    width: 50px;
+    height:10px;
+    
+}
+.box-md-1 .color-box-shade img{
+    /* Vector */
+    position: relative;
+    left:35%;
+    top:-5%;
+width: 70%;
+height: 40%;
+
+
+}
+.box-md-3 .color-box-shade img{
+    /* Vector */
+    position: relative;
+    left:75%;
+    top:-5%;
+width: 30%;
+height: 15%;
+
+
+}
+
+
+@media only screen and (min-width:700px) {
+    .body-governance{
+        position: inherit;
+        top:70px;
+        width:80%;
+        display: flex;
+        flex-direction: row;
+    }
+    .works-governance{
+        position: relative;
+        top:70px;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .works-background{
+        position: relative;
+        width: 100%;
+        background-image: url("./resources/works-background.png");
+        height:300px;
+        margin-top: 100px;
+    }
+
+    .tilt-90-button{
+        width: 15%;
+        height: 100%;
+        padding:10px;
+        /* Security */
+
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-content: center;
+
+        }
+
+    .tilt-90-button div{
+/* Security */
+
+
+
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 141.3%;
+        /* or 127px */
+        letter-spacing: 0.04em;
+
+        color: #000000;
+
+        transform: rotate(-90deg);
+    }
+
+/* Vector */
+
+
+
+/* Vector */
+
+.security-box{
+    box-sizing: border-box;
+
+    background: #FFFFFF;
+    border: 1px solid #B0B0B0;
+    box-shadow: 2px 8px 30px 5px rgba(176, 176, 176, 0.25);
+    border-radius: 20px;
+    
+}
+/* Rectangle 429 */
+
+
+}

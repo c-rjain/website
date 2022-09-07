@@ -135,12 +135,10 @@ border-radius: 5px 0px 0px 10px;
            min-width: 100%;
         }
         .prototype-stack{
-
             height:260px;
             width:100%;
             opacity: 0.99;
             background: #FFFFFF;
-
             position:relative!important;
             left:unset!important;
             right:unset!important;

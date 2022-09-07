@@ -19,7 +19,6 @@ function OurService(){
                 <div className="box white-background text-center"><img src={contentIcon} style={{width:'100%'}}/><p className="service-specific-text">Content</p><img src={downArrow} style={{width:'30px'}}/></div>
                 <div className="box white-background text-center"><img src={augmentedTeamIcon} style={{width:'100%'}}/><p className="service-specific-text">Augmented Team</p><img src={downArrow} style={{width:'30px'}}/></div>
                 <div className="box white-background text-center"><img src={articleIcon} style={{width:'100%'}}/><p className="service-specific-text">Article</p><img src={downArrow} style={{width:'30px'}}/></div>
- 
             </div>
         </div>
 
