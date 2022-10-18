@@ -83,7 +83,111 @@
 .fade-in {
     animation: fadeIn 3s forwards;
   }
+.div-30{
+    width: 30%;
+    height: 100%;
+    text-align: left;
 
+    vertical-align: left;  
+    text-align: left;
+
+
+}
+.div-40{
+    width: 70%;
+    height: 100%;
+    text-align: left;
+
+    vertical-align: left;  
+    text-align: left;
+
+
+}
+.div-50{
+    width: 50%;
+    height: 100%;
+    text-align: left;
+
+    vertical-align: left;  
+    text-align: left;
+
+
+}
+.div-60{
+    width: 70%;
+    height: 100%;
+    text-align: left;
+
+    vertical-align: left;  
+    text-align: left;
+
+
+}
+.div-70{
+    width: 70%;
+    height: 100%;
+    text-align: left;
+
+    vertical-align: left;  
+    text-align: left;
+
+
+}
+.div-33{
+    width: 33.33%;
+    height: 100%;
+    text-align: left;
+
+    vertical-align: left;  
+    text-align: left;
+}
+
+.div-num h2{
+    /* Open Source Services */
+
+position: relative;
+
+font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+
+
+color: #000000;
+
+
+
+}
+.div-num h3{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: left;
+
+}
+.div-num h1{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+
+}
+.div-num p{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: left;
+
+}
+.div-num ul{
+    padding-left: 15%;
+    padding-right: 10%;
+    text-align: left;
+}
+
+.div-num h2{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 25%;
+}
   @keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}

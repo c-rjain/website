@@ -1,0 +1,319 @@
+.service-source{
+    position: relative;
+    top:62px;
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;  
+    text-align: center;
+}
+
+
+
+.box-prototyping{
+    
+    height: auto;
+    padding: 25px;
+    margin: 20px;
+    display: inline-block;
+    color:#FFFFFF;
+    text-align: center;
+    }
+
+    .body-sd{
+        position: relative;
+        width:100%;
+        display: flex;
+        flex-direction: row;
+        vertical-align: middle;  
+        text-align: center;
+        padding-bottom: 10%;
+    }
+    .service-specific-text-prototyping{
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 28px;
+        /* identical to box height, or 35px */
+        text-align: center;
+        
+        color: #fff;
+    }
+    .row-box{
+        text-align: center;  
+        
+    }
+.body-prototype-service{
+    /* Rectangle 456 */
+    position: relative;
+    height:auto;
+    padding-top: 180px;
+    padding-bottom: 50px;
+background: #000000;
+}
+.div-50{
+    width: 50%;
+    height: 100%;
+    text-align: left;
+
+    vertical-align: left;  
+    text-align: left;
+}
+.body-prototyping-bg{
+    /* Rectangle 457 */
+    position: relative;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;  
+    text-align: center;
+    padding-bottom: 10%;
+background: rgba(106, 153, 171, 0.1);
+
+}
+.checkMarkDiv{
+    display:flex;
+    text-align: center;
+    padding-top: 10px;
+}
+.checkMarkDiv img{
+    width:auto;
+    padding-right: 15px;
+    padding-left: 10%;
+
+}
+.div-50-img{
+    width: 100%;
+    text-align: left;
+
+    vertical-align: center;  
+    text-align: left;
+}
+
+.div-50 h2{
+    /* Open Source Services */
+
+position: relative;
+
+font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+display: flex;
+align-items: flex-end;
+
+color: #000000;
+
+
+}
+.rectangle-display{
+    width: 50%;
+    height: 100%;
+
+}
+.rectangle-display{
+    /* Rectangle 443 */
+    width:40%;
+    height: 100%;
+    padding-right: 10%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    vertical-align: middle;  
+    text-align: center;
+    margin: 0 auto;
+
+}
+.display-virtualization-text{
+    position: relative;
+    top:20vh;
+    /* Virtualization */
+text-align: right;
+font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 700;
+font-size: 46px;
+line-height: 61px;
+/* identical to box height */
+
+color: #4A7E93;
+
+
+}
+
+.div-50 p{
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.div-50 h2{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 25%;
+}
+.display-virtualization-para{
+    position: relative;
+    top:20vh;
+    width:40vw;
+    left:25vw;
+    /* Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. */
+
+
+font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 29px;
+
+color: #000000;
+
+
+    /* Virtualization */
+text-align: left;
+/* identical to box height */
+
+}
+
+.display-overlay{
+position: absolute;
+top:20vh;
+left:10%;
+width:40vw;
+}
+
+
+
+
+.vir-button{
+    /* Rectangle 443 */
+    position: relative;
+min-width: 200px;
+left:10%;
+padding-top:10px;
+margin-top: 50px;
+margin: 10px;
+text-align: center;
+/* Share Your Requirement */
+
+
+font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.04em;
+
+
+
+
+}
+
+.bg-black::before {
+    background-color: black;
+    color:#fff;
+  }
+  ol {
+    counter-reset: myOrderedListItemsCounter;
+    
+  }
+  ol li {
+    list-style-type: none;
+    position: relative;
+    padding: .2em;
+
+  }
+  ol li:before {
+    counter-increment: myOrderedListItemsCounter;
+    content: counter(myOrderedListItemsCounter)".";
+    margin: .5em;
+    border-radius: 50%;
+    padding-right: .2em;
+    padding-left: .2em;
+
+  }
+.bodyArchDesign{
+    /* Rectangle 495 */
+
+width: 100%;
+height: auto;
+background: linear-gradient(180deg, rgba(92, 134, 167, 0) 0%, rgba(92, 134, 167, 0.2) 100%);
+
+}
+@media only screen and (max-width:700px) {
+    .truthboard-box{
+        width: 90% !important;
+    }
+}
+
+@media only screen and (min-width:700px) {
+    .body-visulization{
+        position:relative;
+        top:20vh;
+        width:80%;
+        height:90vh;;
+        margin:0 auto;
+    }
+    .body-decision{
+        position:relative;
+        top:30vh;
+        width:80%;
+        height:90vh;;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin:0 auto;
+    }
+    .decision-board-heading{
+        
+        order: 2;
+        width:50%;
+        align-content: center;
+
+    }
+    .decision-board-text{
+        width: 50%;
+        height: auto;
+        font-size:"4vw";
+        top:20%;
+    }
+
+    .dashboard-nav{
+        /* Rectangle 478 */
+    
+
+        
+        width: 20%;
+        height:auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    
+        vertical-align: middle;
+        border-radius: 0px 200px 0px 0px;
+
+    
+    }
+    .body-dashboard{
+        flex-direction: row;
+    }
+    .truthboard-box{
+        width: unset;
+        text-align:left;
+        margin:10px;
+
+        
+    }
+    .truthboard-stack{
+        display:flex;
+        margin-left: 5%;
+        padding: 10px;
+        width:90%;
+        flex-direction: row;
+    
+    }
+
+
+}

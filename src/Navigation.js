@@ -40,17 +40,15 @@ function Navigation(){
               <a href="/governance">Governance</a>
             </li>
             <li>
-              <a href="/contact">Option</a>
+              <a href="/prototyping">Prototyping</a>
             </li>
             <li>
-              <a href="/contact">Option</a>
+              <a href="/software-development">Software Development</a>
             </li>
             <li>
-              <a href="/contact">Option</a>
+              <a href="/augmented">Augmented Team</a>
             </li>
-            <li>
-              <a href="/contact">Option</a>
-            </li>
+            
           </ul>
         </div>
       </nav>
